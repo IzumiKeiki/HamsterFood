@@ -1,0 +1,136 @@
+/* *************** */
+/* Below 991px */
+/* *************** */
+
+@media (max-width: 61.9375rem) {
+  .container-fluid {
+    justify-content: right !important;
+  }
+
+  .navbar-nav {
+    gap: 0.5rem;
+  }
+
+  .navbar-toggler {
+    padding: 0 2rem !important;
+    margin-bottom: 0.5rem;
+  }
+
+  .price {
+    width: 90%;
+  }
+}
+
+/* *************** */
+/* Below 960px */
+/* *************** */
+
+@media (max-width: 60em) {
+  .hero-img-box img {
+    width: 100%;
+  }
+
+  .collection-img-box img {
+    width: 80%;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* *************** */
+/* Below 832px */
+/* *************** */
+
+@media (max-width: 60em) {
+  .price-content {
+    padding: 2rem 2.5em 2rem 2.5rem;
+  }
+}
+
+/* *************** */
+/* Below 720px */
+/* *************** */
+
+@media (max-width: 45em) {
+  .heading-2 {
+    font-size: 2.1rem;
+  }
+
+  .grid-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .hero-img-box img {
+    display: none;
+  }
+
+  .section-hero {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url(../img/hero-hamster.jpg);
+  }
+
+  .hero-img-box {
+    height: 50vh;
+    background-image: url(../img/hero-food-2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .price {
+    width: 110%;
+  }
+
+  .cta {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .cta-text {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* *************** */
+/* Below 640px */
+/* *************** */
+
+@media (max-width: 40em) {
+  html {
+    font-size: 55%;
+  }
+
+  .cta,
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .collection-img-box:nth-child(4) {
+    grid-row: 3;
+  }
+
+  .collection-img-box img {
+    width: 60%;
+  }
+
+  .price {
+    width: 90%;
+    margin: 2.5rem auto;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+}
